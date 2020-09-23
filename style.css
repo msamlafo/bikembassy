@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+}
+
+
+/* TYPOGRAPHY */
+.brandName {
+    font-family: 'Lobster', cursive;
+}
+
+li, p, h3 {
+    font-family: 'Comfortaa', cursive;
+}
+
+em {
+    font-family: 'Lobster', cursive;
+}
+
+.main p {
+    margin: 40px auto;
+}
+
+.main{
+    text-align: center;
+    padding: 50px 20% 50px;
+    background-color: rgb(235, 232, 232);
+}
+
+.main button {
+    margin: 50px;
+    padding: 10px 40px;
+}
+
+/* BIKE TYPES */
+#bikeTypes h3 {
+    text-align: center;
+    padding: 60px 0 40px;
+    
+}
+
+.bikeTypesbtn {
+    background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 4px 32px 1px 33px;
+  text-decoration: none;
+}
+
+.bikeTypesbtn:hover {
+    background: #3cfc96;
+    background-image: -webkit-linear-gradient(top, #3cfc96, #3498db);
+    background-image: -moz-linear-gradient(top, #3cfc96, #3498db);
+    background-image: -ms-linear-gradient(top, #3cfc96, #3498db);
+    background-image: -o-linear-gradient(top, #3cfc96, #3498db);
+    background-image: linear-gradient(to bottom, #3cfc96, #3498db);
+    text-decoration: none;
+  }
